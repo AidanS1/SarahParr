@@ -10,9 +10,8 @@ body{
 	text-align: center;
 	color: white;
 }
-table{
-	border-bottom-color: black; 
-	border-color: black;
-	border-width: 5px;
+table, th, td{
+	border: 1px solid black;
+	
 	
 }
