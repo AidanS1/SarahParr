@@ -1,18 +1,18 @@
 .nav{
 	background-color: gray;
-	height: 40px;
+	
 	overflow: hidden;
 }
 body{
 	background-color: lightpink;
 }
-#StarsHead{
-	text-align: center;
-	color: white;
-}
+
 table, th, td{
-	border: 1px solid black;
+	border: 2px solid black;
+	
 }
+
+/* Page Navigation bar */
 .nav a{
 float: left;
 font-size: 16px;
@@ -20,11 +20,13 @@ color: white;
 text-align: center;
 padding: 14px 16px;
 text-decoration: none;
+font-family: Times New Roman;
 }
 
 .dropdown {
 	float: left;
 	overflow: hidden;
+	
 }
 .dropdown .dropbtn{
 	font-size: 16px;
@@ -34,16 +36,17 @@ text-decoration: none;
 	padding: 14px 16px;
 	background-color: inherit;
 	margin: 0;
+	
 }
 .nav a:hover, .dropdown:hover .dropbtn{
 	background-color: red;
 }
-/*Aidan and Sarah Content*/
+	/*Aidan and Sarah Content*/
 .dropdown-content{
 	display: none;
 	position: absolute;
 	background-color: gray;
-	min-width: 160px;
+	min-width: 5px;
 	box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
 	z-index: 1;
 	
@@ -54,8 +57,21 @@ text-decoration: none;
 }
 .dropdown:hover .dropdown-content{
 	display: block;
+	
+}
+.fa-caret-down{
+	content: '\f0d7';
 }
 
 img{
 	width: 10%;
+}
+
+/* Our Hill of Stars page stylesheet*/
+#StarsHead{
+	text-align: center;
+	color: white;
+}
+#banner1{
+	padding: 5px;
 }
